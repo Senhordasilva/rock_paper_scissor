@@ -36,7 +36,7 @@ while True:
       continue
     else:
       break
-  elif (user_1 != "p" or "r" or "s") or       (user_2 != "p" or "r" or "s"):
+  elif (user_1 != "p" or "r" or "s") or (user_2 != "p" or "r" or "s"):
     print("come one. read the rules")
     print("user 2 chose", user_2) #extrA
     break
