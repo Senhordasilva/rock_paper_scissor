@@ -6,7 +6,7 @@ while True:
   user_2 = str(random.choice(["r","s", "p"]))
   if user_1 == "r" and user_2 == "s":
     print("user 1 wins  \n")
-    print("user 2 chose", user_2) #extrA
+    print("user 2 chose", user_2) #bot
     again = input("want to play again?: Type yes or no: ")
     if again == "yes":
       continue
@@ -14,7 +14,7 @@ while True:
       break
   elif user_1 == "s" and user_2 == "p":
     print("user 1 wins  \n")
-    print("user 2 chose", user_2) #extrA
+    print("user 2 chose", user_2) #bot
     again = input("want to play again?: Type yes or no: ")
     if again == "yes":
       continue
@@ -22,7 +22,7 @@ while True:
       break
   elif user_1 == "p" and user_2 == "r":
     print("user 1 wins  \n")
-    print("user 2 chose", user_2) #extrA
+    print("user 2 chose", user_2) #bot
     again = input("want to play again?: Type yes or no: ")
     if again == "yes":
       continue
@@ -30,7 +30,7 @@ while True:
       break
   elif user_1 == user_2:
     print("it\'s a tie")
-    print("user 2 chose", user_2) #extrA
+    print("user 2 chose", user_2) #bot
     again = input("want to play again?: Type yes or no: ")
     if again == "yes":
       continue
@@ -38,11 +38,11 @@ while True:
       break
   elif (user_1 != "p" or "r" or "s") or (user_2 != "p" or "r" or "s"):
     print("come one. read the rules")
-    print("user 2 chose", user_2) #extrA
+    print("user 2 chose", user_2) #bot
     break
   else:
     print("user 2 wins \n")
-    print("user 2 chose", user_2) #extrA
+    print("user 2 chose", user_2) #bot
     again = input("want to play again?: Type yes or no: ")
     if again == "yes":
       continue
